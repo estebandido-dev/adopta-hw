@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri light'; 
+}
+
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #04A541;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background: #78C775;
+}
+
+#header #centro1{
+    width: 800px;
+    height: auto; 
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}
+
+#header #centro1 #logo{
+    width: 200px;
+    border: 0px solid;
+    float: left;
+}
+
+#header #centro1 #logo h2, p{
+    color: white;
+}
+
+#header #centro1 #logo p{
+    margin-top: -20px;
+}
+
+/* ------------ MENU -------- */
+
+#header #menu{
+    width: 580px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
+
+#header #menu ul li{
+    display: inline-block;
+}
+
+#header #menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+
+#header #menu ul li a:hover{
+    background: #04A541;
+}
+
+/*---------Presentacion--------*/
+
+#presentacion{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: white;
+}
+
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;
+}
+
+#presentacion #centro2 #izquierda{
+    width: 290px;
+    border: 0px solid;
+    float: left;
+}
+
+#presentacion #centro2 #izquierda h2{
+    color: #04A541;
+    font-weight: lighter;
+}
+
+.descripcion{
+    color: black;
+    text-align: left;
+
+}
+
+.boton{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.boton:hover{
+    background: #78C775;
+    color: white;
+}
+
+#presentacion #centro2 #derecha{
+    width: 490px;
+    height: auto;
+    float: right;
+}
+
+.imag{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #04A541;
+    margin: 20px 0px;
+    float: right;
+}
+
+/*-------------Contenido izquierda-------------------*/
+
+#contenidos{
+    width: 100%;
+    height: auto; overflow: hidden;
+}
+
+#contenidos #centro3{
+    width: 800px;
+    margin: auto; border: 0px solid;
+    height: auto; overflow: hidden;
+}
+
+#contenidos #centro3 #izquierda{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+#contenidos #centro3 #izquierda h3{
+    color: #04A541;
+
+}
+
+#contenidos #centro3 #izquierda .descripcion-contenido{
+    text-align: left;
+    color: black;
+    text-align: justify;
+}
+
+.img-servicios{
+    width: 120px; height: 100px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #04A541;
+}
+
+.imag-adopta{
+    width: 400px; height: 400px;
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid #04A541;
+}
+
+/*----------contenido derecha--------*/
+
+#contenidos #centro3 #derecha{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+
+#contenidos #centro3 #derecha h3{
+    text-align: left;
+    font-size: 22px;
+    color: #04A541;
+}
+
+#contenidos #centro3 #derecha ul li{
+    text-align: left;
+    color: black;
+    text-align: justify;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+
+#contenidos #centro3 #derecha .principios{
+    text-align: justify;
+    padding: 7px 10px;
+    margin: 10px 4px;
+    text-align: left;
+}
+
+#contenidos #centro3 #derecha p{
+    text-align: left;
+    color: black;
+    text-align: center;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+/*-------PIE-------------------------*/
+
+#pie{
+    width: 100%;
+    height: 90px;
+    background: #78C775;
+    padding-top: 10px;
+}
+
+#pie #centropie {
+    width: 800px;
+    height: auto; overflow: hidden;
+    margin: auto;
+    padding-top: 10px;
+}
+
+/*-----formulario contacto------------*/
+.contacto{
+    border: 1px solid #04A541;
+    border-radius: 3px;
+    padding: 45px 45px 20px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 5px #78C775 inset;
+}
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #04A541;
+    resize: none;
+    box-shadow:0 0 0 3px #78C775;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto select{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #04A541;
+    resize: none;
+    box-shadow:0 0 0 3px #78C775;
+    margin: 5px 0;
+}
+.contacto select:focus{
+outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto input[type='submit']{
+    border: 1px solid #04A541;
+    box-shadow:0 0 0 3px #78C775;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}

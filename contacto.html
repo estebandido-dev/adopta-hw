@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopción México</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="linea"></div>
+    <div id="header">
+        <div id="centro1">
+            <div id="logo">
+                <h2>Adopta México</h2>
+                <p>La adopción es la opción</p>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes.html">¿Quienes somos?</a></li>
+                    <li><a href="adopta.html">Adopta ♥</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> <!--Termino del header-->
+
+    <div id="presentacion">
+        <div id="centro2">
+            <div id="izquierda">
+            <h2>¿Listo para adoptar?</h2>
+            <p class="descripcion">La adopción, una nueva oportunidad para las mascotas abandonadas.</p>
+            <button class="boton" onclick="location.href='adopta.html'">Adopta aquí</button>
+            </div>
+            
+            <div id="derecho">
+                <img src="img/adopta2.jpg" class="imag">
+            </div>
+        </div>
+    </div>
+
+    <div id="contenidos">
+        <div id="centro3">
+            <div id="izquierda">
+                <h3 style="font-size:30px;"> ¡Contáctanos!</h3>
+                <form class='contacto'>
+                    <div><label>Tu Nombre:</label><input type='text' value='' autofocus required></div>
+                    <div><label>Tu E-mail:</label><input type='text' value='' required></div>
+                    <div><label>Tu Teléfono:</label><input type='text' value='' required></div>
+                    <div><label>Asunto:</label>
+                        <select name="Asunto" id="asunto"> 
+                        <option value="Adoptar">Adoptar</option> 
+                        <option value="Reportar">Reportar</option> 
+                        <option value="Comentarios">Comentarios</option>
+                        </select>
+                    </div>
+                    <div><label>Mensaje:</label><textarea rows='6' required></textarea></div>
+                    <div><input type='submit' onclick='alert("Se enviaron correctamente tus datos. Nos pondremos en contacto a la brevedad")' value='Envia Mensaje'></div>
+                </form>
+                <br> <br>
+            </div>
+            <div id="derecha">
+                <h3>¡Tus comentarios son muy importantes para nosotros!</h3>
+                <h4>Procedimiento para adoptar/reportar</h4>
+                <ul>
+                    <li>Cuando elijes mejorar la vida de un animalito, se requiere tener ciertos requisitos como ya pudiste leer en la parte de "Adopta♥", por esto es que
+                        en el formulario de la izquierda debes seleccionar en el <b>Asunto</b> <i>Adoptar</i> y llenar los campos como se pide.
+                        En el <i>Mensaje</i> dar una breve expliación del porque quieres adoptar una mascota. Una vez enviado, nosotros nos pondremos en
+                        contacto contigo, mediante el e-mail que proporcionaste en el formulario.
+                    </li> <br>
+                    <li>Para <b>reportar</b> ya sea un problema que hayas tenido con la mascota que adoptaste ó reportar maltrato animal de algún conocido o vecino.
+                        Debes de poner en el <b>Asunto</b> <i>Reportar</i> y en el <i>Mensaje</i> describir y proporcionar todos los datos conocidos
+                        sobre el problema. 
+                    </li> <br>
+                </ul>
+                <p>
+                    <b>No olvides llenar correctamente los campos ya que esto nos ayuda a agilizar el proceso</b>
+                </p>
+            </div>
+        </div>
+    </div> <!--Termino del contenido-->
+
+    <div id="pie">
+        <div id="centropie">
+            <p>
+                (c) Todos los derechos reservados Diseñado por Esteban López - 2020
+            </p>
+        </div>
+    </div> <!--Termino del footer-->
+</body>
+</html>
